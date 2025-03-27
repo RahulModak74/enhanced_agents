@@ -76,7 +76,7 @@ python3 universal_main.py --workflow extremely_advanced_cyber_agentic_workflow.j
 ### Interactive Mode
 
 ```bash
-./main.py
+./universal_main.py
 ```
 
 This launches an interactive CLI where you can:
