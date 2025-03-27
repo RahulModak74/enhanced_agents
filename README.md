@@ -58,26 +58,16 @@ cd enhanced_agents
 pip install jsonschema
 
 # Make the main script executable
-chmod +x main.py
+chmod +x universal_main.py
 
 # Set up your API key in config.py
-# Get a free API token for DeepSeek on openrouter and add it
-
-# Run a sample workflow
-python3 main.py --workflow cust_jour_workflow.json customer_journey.csv
-
-python3 main.py --workflow extremely_advanced_cyber_agentic_workflow.json journey.csv
+# Get a free API token for DeepSeek on openrouter and add it to config.py
 
 
-Sometimes we get json error then we can use special script..
+python3 universal_main.py --workflow cust_jour_workflow.json customer_journey.csv
 
-python3 journey_workflow_runner.py cust_jour_workflow.json customer_journey.csv
+python3 universal_main.py --workflow extremely_advanced_cyber_agentic_workflow.json journey.csv
 
-python3 cyber_workflow_runner.py extremely_advanced_cyber_agentic_workflow.json journey.csv
-
-Above main file is for cybersec and marketing, but there is also a universal_main.py that works with any dataset.
-
-python3 universal_main.py --workflow extremely_advanced_cyber_agentic_workflow.json journey.csv (some testing needed for other datasets)
 
 ```
 
