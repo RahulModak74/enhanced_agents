@@ -91,7 +91,7 @@ This launches an interactive CLI where you can:
 ### Workflow Mode
 
 ```bash
-./main.py --workflow example_workflow.json
+./universal_main.py --workflow example_workflow.json
 ```
 
 This executes a pre-defined workflow without entering the interactive shell.
