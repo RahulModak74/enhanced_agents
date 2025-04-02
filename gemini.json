@@ -1,0 +1,27 @@
+{
+    "workflow_name": "Interactive Agent",
+    "configuration": {
+        "model": "gemini-2.5-pro",
+        "temperature": 0.7
+    },
+    "agents": [
+        {
+            "name": "conversation_agent",
+            "type": "interactive",
+            "tools": ["mcp:get_tools"]
+        }
+    ],
+    "workflow": [
+        {
+            "agent": "input_handler",
+            "type": "dynamic",
+            "actions": {
+                "user_input": {
+                    "agent": "response_generator",
+                    "tools": ["conversation:process", "mcp:execute_tool"]
+                }
+            }
+        }
+    ],
+    "exit_condition": "input == 'exit'"
+}
