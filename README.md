@@ -1,4 +1,4 @@
-# Enhanced Multi-Agent System (For Linux Operating System)
+# Enhanced Multi-Agent System (Community Edition --Pl use WSL if running on Windows:-   wsl --install -d Ubuntu)
 
 A revolutionary approach to AI agent orchestration with minimal code and maximum capability. This system provides powerful multi-agent workflows through simple JSON configuration rather than complex Python code.
 
