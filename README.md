@@ -266,6 +266,38 @@ You can run this workflow with:
 python3 main.py --tool-workflow customer_journey_planning_workflow.json
 This demonstrates the power of our approach - handling complex multi-agent workflows without sacrificing simplicity.
 
+PROFESSIONAL EDITION:
+
+Has multiple advanced features like below:
+Key Cognitive Architecture Components:
+
+
+Memory Systems Framework The Memory Systems Framework provides advanced memory patterns that enable agents to store, retrieve, and reason over complex information:
+
+Key Capabilities
+
+Federated Knowledge Graphs: Distributes knowledge across specialized nodes for domain-specific processing and cross-domain integration.
+
+Hierarchical Memory Architecture: Implements a multi-tier memory system with working memory, context-sensitive retrieval, and intelligent promotion/demotion of information based on relevance.
+
+Memory Synchronization Protocol: Enables coordination between multiple agents through publisher-subscriber patterns with consistency verification.
+
+Research Integration: Automatically extracts entities, relations, and concepts from research data and incorporates them into the appropriate memory structures.
+
+Recommendation Engine: Analyzes memory patterns to identify knowledge gaps, promising research areas, and emergent knowledge clusters.
+
+Cognitive Planning Framework The Cognitive Planning Framework implements advanced reasoning patterns that mirror how humans approach complex problems:
+
+Key Capabilities
+
+Tree of Thoughts: Explores multiple solution paths through branching exploration, iterative refinement, and comparative evaluation.
+
+Metacognitive Reflection: Enables agents to analyze their own reasoning processes, detect biases, explore counterfactuals, and self-optimize.
+
+Multi-agent Debate Protocol: Facilitates structured debate between competing perspectives with moderation, rebuttals, and synthesis.
+
+Adaptive Cognition: Dynamically selects and applies the most appropriate cognitive architecture based on problem characteristics.
+
 ## License
 
 SSPL
