@@ -2,6 +2,8 @@
 
 A revolutionary approach to AI agent orchestration with minimal code and maximum capability. This system provides powerful multi-agent workflows through simple JSON configuration rather than complex Python code.
 
+Sort of extending Anthropics MCP for Agents.  While MCP primarily addresses application-to-model communication, our system enables sophisticated agent-to-agent interactions with memory sharing and workflow orchestration across complex networks of specialized agents.
+
 ## Why This System Stands Out
 
 While frameworks like LangChain, LangGraph, and Semantic Kernel require hundreds of lines of Python code to orchestrate complex agent interactions, this system achieves the same capabilities through **declarative JSON configuration**:
