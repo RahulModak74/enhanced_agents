@@ -196,7 +196,7 @@ Workflows are defined as JSON arrays of agent execution steps:
 ]
 ```
 
-## Feature Comparison with LangChain
+## Feature Comparison with LangChain and Community Version
 
 This system achieves approximately feature parity with LangChain's agent orchestration capabilities, while requiring significantly less code:
 
