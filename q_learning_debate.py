@@ -1,3 +1,4 @@
+#Pl create a txt file of your prompt n run like python3 q_learning_debate.py cyber-risk.txt
 import requests
 import json
 import sys
