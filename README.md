@@ -300,6 +300,7 @@ Multi-agent Debate Protocol: Facilitates structured debate between competing per
 Adaptive Cognition: Dynamically selects and applies the most appropriate cognitive architecture based on problem characteristics.
 
 ### FOR Q learning agents with tool calls follow below steps
+Make sure ollama is running and you have deepseek-r1 downloaded 
 pip3 install beautifulsoup4 lxml
 python3 tool_registry.py (make sure tools_registry.json is created in the root dir
 python3 q_learning_tool_agent.py US_inflation.txt
